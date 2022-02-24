@@ -6,7 +6,7 @@ function App() {
   const [ isVisible, setIsVisible ] = useState(false)
 
   const togglePassword = () => {
-    // setIsVisible(!isVisible);
+    setIsVisible(!isVisible);
   }
   
 
